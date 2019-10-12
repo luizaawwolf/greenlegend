@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">EcoLegend</string>
     <string name="action_settings">Settings</string>
+    <string name="user_level">15</string>
+    //to change later
+    <string name="carbonfootprintlabel">CARBON FOOTPRINT</string>
+    <string name="button1text">LET\'S GET STARTED</string>
 </resources>

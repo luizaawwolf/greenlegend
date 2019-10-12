@@ -10,12 +10,43 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/userLevel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:background="@drawable/home_userlevel_circle"
+        android:gravity="center"
+        android:text="@string/user_level"
+        android:textColor="#FFFFFF"
+        android:textSize="70sp"
+        app:fontFamily="@font/anton"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
 
+    <TextView
+        android:id="@+id/level_label"
+        android:layout_width="89dp"
+        android:layout_height="13dp"
+        android:background="@drawable/roundedbackground"
+        android:gravity="center"
+        android:text="@string/carbonfootprintlabel"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:fontFamily="@font/black_ops_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+    </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

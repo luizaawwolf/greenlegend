@@ -8,6 +8,5 @@
     </item>
     <item android:drawable="@drawable/edit"
         android:height="100dp"
-        android:width="100dp"
-        android:paddingleft=""/>
+        android:width="100dp"/>
 </layer-list>

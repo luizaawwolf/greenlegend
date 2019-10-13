@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView userLevelLabel = (TextView) findViewById(R.id.userLevel);
         userLevelLabel.setText(userLevel+"");
-        TextView nameLabel = (TextView) findViewById(R.id.nameDisplay);
-        nameLabel.setText(name);
-        xpProgress = (ProgressBar) findViewById(R.id.progressbar);
-        xpProgress.setProgress(80);
+//        TextView nameLabel = (TextView) findViewById(R.id.nameDisplay);
+//        nameLabel.setText(name);
+//        xpProgress = (ProgressBar) findViewById(R.id.progressbar);
+//        xpProgress.setProgress(80);
     }
 
     @Override

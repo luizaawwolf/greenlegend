@@ -1,31 +1,39 @@
 package com.example.ecolegend;
 
 import android.content.SharedPreferences;
-import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.*;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.util.*;
+import android.os.*;
+
+import org.w3c.dom.Text;
 
 
 public class MainActivity extends AppCompatActivity {
     public static final String SHARED_PREFS = "sharedPrefs";
     public String name;
     public String birthday;
+    public int userLevel;
+    private ProgressBar xpProgress;
+    private float xpStatus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        loadData();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int userLevel = 12;
         TextView userLevelLabel = (TextView) findViewById(R.id.userLevel);
         userLevelLabel.setText(userLevel+"");
-        loadData();
-
+        TextView nameLabel = (TextView) findViewById(R.id.nameDisplay);
+        nameLabel.setText(name);
+        xpProgress = (ProgressBar) findViewById(R.id.progressbar);
+        xpProgress.setProgress(80);
     }
 
     @Override
@@ -53,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
     public void loadData(){
         SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         name = sharedPreferences.getString("name","def");
+        userLevel = sharedPreferences.getInt("userLevel", 0);
+        xpStatus = sharedPreferences.getFloat("xpStatus",(float)0.4);
         Log.d("myTag", "name: " + name);
+        Log.d("myTag", "level: " + userLevel);
     }
 }

@@ -24,7 +24,7 @@ public class IntroScreen extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 saveData();
-                startActivity(new Intent(IntroScreen.this, MainActivity.class));
+                startActivity(new Intent(IntroScreen.this, IntroInfo.class));
             }
         });
         userName = (EditText) findViewById(R.id.nameField);
@@ -35,6 +35,9 @@ public class IntroScreen extends AppCompatActivity {
          SharedPreferences.Editor editor = sharedPreferences.edit();
          editor.putString("name", userName.getText().toString());
          editor.putString("birthday", birthdayField.getText().toString());
+         editor.putInt("userLevel", 1);
+         editor.putFloat("xpStatus", 0);
+         editor.putBoolean("userCreated", true);
          editor.apply();
      }
 }

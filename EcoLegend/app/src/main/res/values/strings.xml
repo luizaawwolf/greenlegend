@@ -5,4 +5,11 @@
     //to change later
     <string name="carbonfootprintlabel">CARBON FOOTPRINT</string>
     <string name="button1text">LET\'S GET STARTED</string>
+    <string name="info1">The average person in the United States produces more than 25 tons of carbon dioxide a year...</string>
+    <string name="info2">That\'s equal to</string>
+    <string name="info3">58,000 miles</string>
+    <string name="info4">14,000 burgers</string>
+    <string name="info5">300,000 smartphone ch.?</string>
+    <string name="info6">Welcome, EcoApprentice</string>
+    <string name="info7">You are on the first step to becoming an EcoLegend changing that number</string>
 </resources>

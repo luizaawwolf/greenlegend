@@ -21,14 +21,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_27" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EcoLegend/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EcoLegend/app/src/main/java/com/example/ecolegend/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1751">
+              <caret line="103" column="14" lean-forward="true" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -46,54 +48,43 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <showMembers AndroidView="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
+      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="greenlegend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="androidTest" type="e9137016:NonAndroidModuleNode" />
+              <item name="greenlegend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\sayand\StudioProjects\greenlegend" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="greenlegend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="androidTest" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="greenlegend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\sayand\StudioProjects\greenlegend" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="EcoLegend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="greenlegend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="androidTest" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="ecolegend" type="462c0819:PsiDirectoryNode" />
+              <item name="greenlegend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\sayand\StudioProjects\greenlegend" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="EcoLegend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="greenlegend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="main" type="e9137016:NonAndroidModuleNode" />
+              <item name="greenlegend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\sayand\StudioProjects\greenlegend" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="EcoLegend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gradle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="greenlegend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="main" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="greenlegend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="test" type="e9137016:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="greenlegend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="test" type="e9137016:NonAndroidModuleNode" />
-              <item name="tests" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="greenlegend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="test" type="e9137016:NonAndroidModuleNode" />
-              <item name="tests" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="ecolegend" type="462c0819:PsiDirectoryNode" />
+              <item name="greenlegend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\sayand\StudioProjects\greenlegend" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="EcoLegend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gradle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wrapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -105,7 +96,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EcoLegend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EcoLegend/app" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -203,9 +194,9 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49410504" visible="true" weight="0.24946696" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49303323" visible="true" weight="0.24946696" />
       <window_info id="Structure" order="2" sideWeight="0.50159746" side_tool="true" weight="0.32995737" />
-      <window_info id="Build Variants" order="3" sideWeight="0.50589496" side_tool="true" visible="true" weight="0.24946696" />
+      <window_info id="Build Variants" order="3" sideWeight="0.50696677" side_tool="true" weight="0.24946696" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Resources Explorer" order="6" sideWeight="0.49732047" weight="0.32995737" />
@@ -218,8 +209,8 @@
       <window_info anchor="bottom" id="Debug" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.21864952" />
-      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.21864952" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3290461" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -287,8 +278,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EcoLegend/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/EcoLegend/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -304,6 +295,19 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EcoLegend/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EcoLegend/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="14" lean-forward="true" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -324,7 +328,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android (main)|Android</last-edited>
+          <last-edited>Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -359,11 +363,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Android|main</last-edited>
+          <last-edited>main</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

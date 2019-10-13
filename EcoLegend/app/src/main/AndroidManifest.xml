@@ -12,7 +12,7 @@
         <activity android:name=".IntroInfo"></activity>
         <activity android:name=".IntroScreen" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".QuizActivity" />
+        <activity android:name=".InitQuizActivity" />
         <activity
             android:name=".WelcomeScreen"
             android:label="@string/app_name"

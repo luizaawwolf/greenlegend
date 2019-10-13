@@ -29,6 +29,7 @@ public class IntroScreen extends AppCompatActivity {
         });
         userName = (EditText) findViewById(R.id.nameField);
         birthdayField = (EditText) findViewById(R.id.birthdayField);
+
     }
      public void saveData(){
          SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);

@@ -21,7 +21,6 @@ public class WelcomeScreen extends AppCompatActivity {
         final Button button = findViewById(R.id.beginbutton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //startActivity(new Intent(WelcomeScreen.this, TravelingInfo.class));
                 if( userExists ){
                     startActivity(new Intent(WelcomeScreen.this, MainActivity.class));
                 }

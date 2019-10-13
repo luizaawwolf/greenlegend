@@ -1,5 +1,6 @@
 package com.example.ecolegend;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -7,8 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.*;
-import android.widget.ProgressBar;
-import android.widget.TextView;
+import android.widget.*;
 import android.util.*;
 import android.os.*;
 import android.graphics.Color;
@@ -38,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
         } else {
             carbonLabel.setText(carbonFootprint+"");
         }
+        Button travelButton = (Button) findViewById(R.id.travelButt);
+        travelButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, TravelingInfo.class));
+            }
+        });
 //        TextView nameLabel = (TextView) findViewById(R.id.nameDisplay);
 //        nameLabel.setText(name);
 //        xpProgress = (ProgressBar) findViewById(R.id.progressbar);

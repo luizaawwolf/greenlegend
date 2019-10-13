@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="user_level">15</string>
     //to change later
-    <string name="carbonfootprintlabel">CARBON FOOTPRINT</string>
+    <string name="carbonfootprintlabel">YOUR FOOTPRINT</string>
     <string name="button1text">LET\'S GET STARTED</string>
     <string name="info1">The average person in the United States produces more than 25 tons of carbon dioxide a year...</string>
     <string name="info2">That\'s equal to</string>

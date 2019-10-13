@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EcoLegend</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_level">15</string>
+    //to change later
+    <string name="carbonfootprintlabel">CARBON FOOTPRINT</string>
+    <string name="button1text">LET\'S GET STARTED</string>
+    <string name="info1">The average person in the United States produces more than 25 tons of carbon dioxide a year...</string>
+    <string name="info2">That\'s equal to</string>
+    <string name="info3">58,000 miles</string>
+    <string name="info4">14,000 burgers</string>
+    <string name="info5">300,000 smartphone ch.?</string>
+    <string name="info6">Welcome, EcoApprentice</string>
+    <string name="info7">You are on the first step to becoming an EcoLegend changing that number</string>
+
+    <string-array name="carType">
+        <item>Not Driving Today</item>
+        <item>Normal Car</item>
+        <item>Hybrid Car</item>
+        <item>Electric Car</item>
+    </string-array>
+
+    <string-array name="publicType">
+        <item>Not Using Public Transportation Today</item>
+        <item>Train</item>
+        <item>Bus</item>
+        <item>Plane</item>
+    </string-array>
+</resources>

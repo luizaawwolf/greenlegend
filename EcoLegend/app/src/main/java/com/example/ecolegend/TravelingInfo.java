@@ -57,7 +57,7 @@ public class TravelingInfo extends AppCompatActivity {
         editor.putFloat("mpg", (float)mpg);
         editor.apply();
 
-        final ImageButton travel = (ImageButton) findViewById(R.id.imageButton2);
+        final ImageButton travel = (ImageButton) findViewById(R.id.quizButton);
         travel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

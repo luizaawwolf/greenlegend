@@ -72,33 +72,33 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/naturalgas"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="natural gas" />
+<!--                    <com.google.android.material.chip.Chip-->
+<!--                        android:id="@+id/naturalgas"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:checkable="true"-->
+<!--                        android:text="natural gas" />-->
 
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/electricity"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="electricity" />
+<!--                    <com.google.android.material.chip.Chip-->
+<!--                        android:id="@+id/electricity"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:checkable="true"-->
+<!--                        android:text="electricity" />-->
 
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/fuel oil"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="fuel oil" />
+<!--                    <com.google.android.material.chip.Chip-->
+<!--                        android:id="@+id/fueloil"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:checkable="true"-->
+<!--                        android:text="fuel oil" />-->
 
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/propane"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="propane" />
+<!--                    <com.google.android.material.chip.Chip-->
+<!--                        android:id="@+id/propane"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:checkable="true"-->
+<!--                        android:text="propane" />-->
                 </LinearLayout>
 
                 <TextView
@@ -233,11 +233,11 @@
                     android:text="@string/homequizq10" />
 
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/recycle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="yes" />
+<!--                <com.google.android.material.chip.Chip-->
+<!--                    android:id="@+id/recycle"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="yes" />-->
 
                 <TextView
                     android:id="@+id/transquizq1"
@@ -250,26 +250,26 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/car"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="car" />
+<!--                    <com.google.android.material.chip.Chip-->
+<!--                        android:id="@+id/car"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:checkable="true"-->
+<!--                        android:text="car" />-->
 
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/transit"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="transit" />
+<!--                    <com.google.android.material.chip.Chip-->
+<!--                        android:id="@+id/transit"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:checkable="true"-->
+<!--                        android:text="transit" />-->
 
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/bus"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:checkable="true"
-                        android:text="bus" />
+<!--                    <com.google.android.material.chip.Chip-->
+<!--                        android:id="@+id/bus"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:checkable="true"-->
+<!--                        android:text="bus" />-->
 
                 </LinearLayout>
 
@@ -295,11 +295,11 @@
                     android:layout_height="wrap_content"
                     android:text="@string/transquizq3" />
 
-                <com.google.android.material.chip.Chip
-                    android:id="@+id/electriccars"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="yes" />
+<!--                <com.google.android.material.chip.Chip-->
+<!--                    android:id="@+id/electriccars"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="yes" />-->
 
                 <TextView
                     android:id="@+id/transquizq4"

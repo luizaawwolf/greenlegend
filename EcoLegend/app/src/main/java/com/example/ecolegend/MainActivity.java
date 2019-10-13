@@ -44,6 +44,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, TravelingInfo.class));
             }
         });
+
+        ImageButton quizButton = (ImageButton) findViewById(R.id.quizButton);
+        quizButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, QuizTest.class));
+            }
+        });
 //        TextView nameLabel = (TextView) findViewById(R.id.nameDisplay);
 //        nameLabel.setText(name);
 //        xpProgress = (ProgressBar) findViewById(R.id.progressbar);

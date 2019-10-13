@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TravelingInfo"></activity>
+        <activity android:name=".QuizTest"></activity>
+        <activity android:name=".TravelingInfo" />
         <activity android:name=".CarTimer" />
         <activity android:name=".CarbonProduced" />
         <activity android:name=".IntroInfo" />

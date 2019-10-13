@@ -25,4 +25,67 @@
         <item>Bus</item>
         <item>Plane</item>
     </string-array>
+
+    <string name="initquiztitle">Initial Quiz</string>
+    <!--
+    <string name="initquizq2"></string>
+    <string name="initquizq2"></string>
+    <string name="initquizq2"></string>
+    -->
+
+    <string name="homequizq1">In what kind of setting do you live?</string>
+    <string-array name="housetype">
+        <item>Single Family Home</item>
+        <item>Apartment Building (2 to 4 units)</item>
+        <item>Apartment Building (&gt;5 units)</item>
+        <item>Mobile Home</item>
+    </string-array>
+
+    <string name="homequizq2">How big is your home?</string>
+    <string-array name="housesize">
+        <item>less than 1000 sq ft</item>
+        <item>1000-2000 sq ft</item>
+        <item>2000-3000 sq ft</item>
+        <item>3000-4000 sq ft</item>
+        <item>more than 4000 sq ft</item>
+    </string-array>
+
+    <string name="homequizq3">How many people live in your household?</string>
+    <string name="homequizq4">Check all sources of energy you use in your home:</string>
+    <string name="homequizq5">How much natural gas does your household consume?</string>
+    <string name="homequizq6">How much electricity does your household consume?</string>
+    <string name="homequizq7">How much fuel oil does your household consume?</string>
+    <string name="homequizq8">How much propane does your household consume?</string>
+    <string name="homequizq9">Which of the following best describes your dietary habits?</string>
+    <string-array name="diettype">
+        <item>meat lover</item>
+        <item>average omnivorous</item>
+        <item>no beef</item>
+        <item>vegetarian</item>
+        <item>vegan</item>
+    </string-array>
+
+    <string name="homequizq10">Do you regularly recycle?</string>
+
+    <string name="transquizq1">Which of the following modes of transportation do you primarily use?</string>
+    <string name="transquizq2">How many vehicles do you own?</string>
+    <string name="transquizq3">Are your vehicles electric?</string>
+    <string name="transquizq4">What is your average mileage for each vehicle?</string>
+    <string name="transquizq5">What is the average fuel economy of your vehicles?</string>
+    <string name="transquizq6">How often do you use intercity rails?</string>
+    <string name="transquizq7">How often do you use commuter rails?</string>
+    <string name="transquizq8">How often do you use transit rails?</string>
+    <string name="transquizq9">How often do you use a bus?</string>
+    <string name="transquizq10">Have you flown in the past year?</string>
+    <string name="transquizq11">How many small round trip flights have you taken in the past year? (&lt;1 hour)</string>
+    <string name="transquizq12">Medium? (1-4 hours)</string>
+    <string name="transquizq13">Long? (&gt;4 hours)</string>
+    <string name="transquizq14">How many nights have you spent in a hotel in the past year?</string>
+
+
+
+
+
+
+
 </resources>

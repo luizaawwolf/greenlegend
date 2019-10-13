@@ -11,6 +11,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.util.*;
 import android.os.*;
+import android.graphics.Color;
 
 import org.w3c.dom.Text;
 
@@ -22,14 +23,21 @@ public class MainActivity extends AppCompatActivity {
     public int userLevel;
     private ProgressBar xpProgress;
     private float xpStatus;
+    private int carbonFootprint;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         loadData();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView userLevelLabel = (TextView) findViewById(R.id.userLevel);
-        userLevelLabel.setText(userLevel+"");
+        TextView carbonLabel = (TextView) findViewById(R.id.userLevel);
+        if( carbonFootprint == 0 ){
+            carbonLabel.setText("TAKE THE QUIZ\nTO FIND OUT");
+            carbonLabel.setTextSize(15);
+            carbonLabel.setTextColor(Color.parseColor("#FFDF6088"));
+        } else {
+            carbonLabel.setText(carbonFootprint+"");
+        }
 //        TextView nameLabel = (TextView) findViewById(R.id.nameDisplay);
 //        nameLabel.setText(name);
 //        xpProgress = (ProgressBar) findViewById(R.id.progressbar);
@@ -62,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         name = sharedPreferences.getString("name","def");
         userLevel = sharedPreferences.getInt("userLevel", 0);
+        carbonFootprint = sharedPreferences.getInt("carbonFootprint", 0);
         xpStatus = sharedPreferences.getFloat("xpStatus",(float)0.4);
         Log.d("myTag", "name: " + name);
         Log.d("myTag", "level: " + userLevel);

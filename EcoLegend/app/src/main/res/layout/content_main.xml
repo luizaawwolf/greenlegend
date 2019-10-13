@@ -48,9 +48,10 @@
                     <TextView
                         android:layout_width="342dp"
                         android:layout_height="match_parent"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
                         android:id="@+id/userLevel"
-                        android:gravity="right"
-                        android:paddingRight="50dp"
+                        android:gravity="center"
+                        android:paddingRight="0dp"
                         android:layout_marginLeft="-10dp"
                         android:background="@drawable/cell"
                         android:text="@string/user_level"
@@ -114,7 +115,29 @@
                         android:textSize="20dp"
                         />
                 </TableRow>
+                <TableRow>
 
+                    <TextView
+                        android:text="Answer Quiz Questions"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="5"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        app:fontFamily="@font/open_sans" />
+                    <TextView />
+                    <TextView
+                        android:text="Answer Quiz Questions"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="5"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        app:fontFamily="@font/open_sans" />
+                    <TextView />
+                </TableRow>
                 <TableRow
                     android:paddingBottom="20dp">
                     <ImageButton
@@ -125,9 +148,10 @@
 
                     <ImageButton
                         android:id="@+id/imageButton3"
-                        android:layout_weight="10"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:tint="#00DF6088"
                         app:srcCompat="@drawable/compas" />
 
                 </TableRow>

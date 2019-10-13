@@ -26,19 +26,25 @@ public class InitQuizActivity extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.housetype, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
+        housetypespinner.setAdapter(adapter);
 
         Spinner housesizespinner = (Spinner) findViewById(R.id.housesize);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
                 R.array.housesize, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
+        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        housesizespinner.setAdapter(adapter2);
 
         Spinner diettypespinner = (Spinner) findViewById(R.id.diettype);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+        ArrayAdapter<CharSequence> adapter3 = ArrayAdapter.createFromResource(this,
                 R.array.diettype, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
+        adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        diettypespinner.setAdapter(adapter3);
+
+        Spinner mileageoptspinner = (Spinner) findViewById(R.id.mileageopt);
+        ArrayAdapter<CharSequence> adapter4 = ArrayAdapter.createFromResource(this,
+                R.array.mileageopt, android.R.layout.simple_spinner_item);
+        adapter4.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        mileageoptspinner.setAdapter(adapter4);
 
         FloatingActionButton next = findViewById(R.id.fab);
         next.setOnClickListener(new View.OnClickListener() {

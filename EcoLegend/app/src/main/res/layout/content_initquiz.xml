@@ -87,7 +87,7 @@
                         android:text="electricity" />
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/fuel oil"
+                        android:id="@+id/fueloil"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:checkable="true"
@@ -307,11 +307,38 @@
                     android:layout_height="wrap_content"
                     android:text="@string/transquizq4" />
 
+                <Spinner
+                    android:id="@+id/mileageopt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
                 <TextView
                     android:id="@+id/transquizq5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/transquizq5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/avgfueleconomy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="enter a number between 10 and 50"
+                        android:inputType="number"
+                        android:numeric="integer"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="mpg" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/transquizq6"
@@ -337,11 +364,30 @@
                     android:layout_height="wrap_content"
                     android:text="@string/transquizq9" />
 
+                <EditText
+                    android:id="@+id/smallflights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="enter a number between 1 and 5"
+                    android:inputType="number"
+                    android:numeric="integer"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
                 <TextView
                     android:id="@+id/transquizq10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/transquizq10" />
+
+                <EditText
+                    android:id="@+id/medflights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="enter a number between 1 and 5"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/transquizq11"
@@ -353,23 +399,29 @@
                     app:autoSizeMaxTextSize="14sp"
                     app:autoSizeTextType="none" />
 
+                <EditText
+                    android:id="@+id/longflights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="enter a number between 1 and 5"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
                 <TextView
                     android:id="@+id/transquizq12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/transquizq12" />
 
-                <TextView
-                    android:id="@+id/transquizq13"
-                    android:layout_width="match_parent"
+                <EditText
+                    android:id="@+id/hotelnights"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/transquizq13" />
-
-                <TextView
-                    android:id="@+id/transquizq14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/transquizq14" />
+                    android:hint="enter a number between 0 and 90"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
 
             </LinearLayout>
         </ScrollView>
